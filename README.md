@@ -80,10 +80,10 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
       "max_tokens": 64
     }' | jq
    ```
-   
   <p align="center">
   <img src="images/output2.png" alt="Output2" height="350" style="margin-right: 50px;">
   </p>
+  
 6. **OpenAI Chat Completion Request**
    The Chat Completions endpoint is typically used with chat or instruct tuned models that are designed to be used through a conversational approach. With the Chat Completions endpoint, prompts are sent in the form of messages with roles and contents, giving a natural way to keep track of a multi-turn conversation. To stream the result, set *"stream": true*.
    ```bash
@@ -110,7 +110,6 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
       "max_tokens": 32
     }'
    ```
-   
   <p align="center">
   <img src="images/output3.png" alt="Output3" height="350" style="margin-right: 50px;">
   </p>
