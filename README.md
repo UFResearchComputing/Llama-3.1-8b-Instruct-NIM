@@ -54,7 +54,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    ```
 
 3. **Check Service Status**  
-   Use the */v1/health/ready* endpoint to properly check if the server is ready to accept inference requests: *curl http://0.0.0.0:8000/v1/health/ready*. The server is ready when this endpoint returns a 200 status code with a success message.
+   Use the `/v1/health/ready` endpoint to properly check if the server is ready to accept inference requests: `curl http://0.0.0.0:8000/v1/health/ready`. The server is ready when this endpoint returns a `200` status code with a success message.
    ```bash
    curl -X GET 'http://0.0.0.0:8000/v1/models'
    ```
@@ -67,8 +67,8 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    <img src="images/output1.png" alt="Output1" height="350" style="margin-right: 50px;">
    </p>
 
-4. **OpenAI Completion Request**  
-   The Completions endpoint is typically used for base models. With the Completions endpoint, prompts are sent as plain strings, and the model produces the most likely text completions subject to the other parameters chosen. To stream the result, set *"stream": true*.
+4. **OpenAI Completion Request**
+   The Completions endpoint is typically used for base models. With the Completions endpoint, prompts are sent as plain strings, and the model produces the most likely text completions subject to the other parameters chosen. To stream the result, set `"stream": true`.
    ```bash
    curl -X 'POST' \
     'http://0.0.0.0:8000/v1/completions' \
@@ -85,7 +85,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
   </p>
   
 5. **OpenAI Chat Completion Request**
-   The Chat Completions endpoint is typically used with chat or instruct tuned models that are designed to be used through a conversational approach. With the Chat Completions endpoint, prompts are sent in the form of messages with roles and contents, giving a natural way to keep track of a multi-turn conversation. To stream the result, set *"stream": true*.
+   The Chat Completions endpoint is typically used with chat or instruct tuned models that are designed to be used through a conversational approach. With the Chat Completions endpoint, prompts are sent in the form of messages with roles and contents, giving a natural way to keep track of a multi-turn conversation. To stream the result, set `"stream": true`.
    ```bash
    curl -X 'POST' \
    'http://0.0.0.0:8000/v1/chat/completions' \
