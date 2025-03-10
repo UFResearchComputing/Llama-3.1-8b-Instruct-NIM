@@ -58,7 +58,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    ```bash
    curl -X GET 'http://0.0.0.0:8000/v1/models'
    ```
-   To make the output easier to read, pipe the results of curl commands into a tool like jq or python -m json.tool. For example: *curl -s http://0.0.0.0:8000/v1/models | jq*.
+   To make the output easier to read, pipe the results of curl commands into a tool like *jq* or python -m json.tool. 
    ```bash
    curl -s http://0.0.0.0:8000/v1/models | jq
    ```
