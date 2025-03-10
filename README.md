@@ -151,6 +151,15 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    ```
    After launching JupyterLab, ensure you select the 'openai' kernel before running the notebook [01_inference.ipynb](01_inference.ipynb).
    
+## Stopping the NIM Service
+
+To stop the NIM service, simply close the terminal window.
+
+## References
+
+- [Llama-3.1-8b-Instruct Documentation](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
+- [Llama-3.1-8b-Instruct on NVIDIA NGC](https://catalog.ngc.nvidia.com/orgs/nim/teams/meta/containers/llama-3.1-8b-instruct)
+- [Conda and Jupyter Kernels Setup](https://github.com/magitz/conda_Jupyter_kernels)
 
 ---
    
