@@ -67,7 +67,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    <img src="images/output1.png" alt="Output1" height="350" style="margin-right: 50px;">
    </p>
 
-5. **OpenAI Completion Request**  
+4. **OpenAI Completion Request**  
    The Completions endpoint is typically used for base models. With the Completions endpoint, prompts are sent as plain strings, and the model produces the most likely text completions subject to the other parameters chosen. To stream the result, set *"stream": true*.
    ```bash
    curl -X 'POST' \
@@ -84,7 +84,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
   <img src="images/output2.png" alt="Output2" height="350" style="margin-right: 50px;">
   </p>
   
-6. **OpenAI Chat Completion Request**
+5. **OpenAI Chat Completion Request**
    The Chat Completions endpoint is typically used with chat or instruct tuned models that are designed to be used through a conversational approach. With the Chat Completions endpoint, prompts are sent in the form of messages with roles and contents, giving a natural way to keep track of a multi-turn conversation. To stream the result, set *"stream": true*.
    ```bash
    curl -X 'POST' \
