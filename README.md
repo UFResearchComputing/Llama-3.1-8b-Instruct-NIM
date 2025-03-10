@@ -62,6 +62,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    ```bash
    curl -s http://0.0.0.0:8000/v1/models | jq
    ```
+   
    <p align="center">
    <img src="images/output1.png" alt="Output1" height="350" style="margin-right: 50px;">
    </p>
@@ -79,6 +80,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
       "max_tokens": 64
     }' | jq
    ```
+   
   <p align="center">
   <img src="images/output2.png" alt="Output2" height="350" style="margin-right: 50px;">
   </p>
@@ -108,6 +110,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
       "max_tokens": 32
     }'
    ```
+   
   <p align="center">
   <img src="images/output3.png" alt="Output3" height="350" style="margin-right: 50px;">
   </p>
