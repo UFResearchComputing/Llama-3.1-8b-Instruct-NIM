@@ -154,7 +154,6 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    ```
 
 4. Satrt the JupyerLab server on Desktop
-   
    Open a new terminal and run the command:
    ```bash
    conda activate openai
