@@ -108,7 +108,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
           }
       ],
       "max_tokens": 32
-    }'
+    }' | jq
    ```
   <p align="center">
   <img src="images/output3.png" alt="Output3" height="350" style="margin-right: 50px;">
