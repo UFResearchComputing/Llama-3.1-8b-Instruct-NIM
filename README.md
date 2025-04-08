@@ -37,7 +37,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
    mkdir -p /blue/groupname/gatorlink/.cache/nim/llama3.1  # Run only the first time
    export LOCAL_NIM_CACHE=/blue/groupname/gatorlink/.cache/nim/llama3.1
    ml llama-3.1-8b-instruct-nim
-   llama-3.1-8b-instruct-nim
+   llama-3.1-8b-instruct
    /opt/nim/start-server.sh
    ```
 
