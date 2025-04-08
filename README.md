@@ -26,7 +26,7 @@ Some model/GPU combinations, including vGPU, are optimized. Refer to Supported M
 
 1. Go to [OOD](https://ood.rc.ufl.edu/) and launch the HiPerGator Desktop.
   <p align="center">
-  <img src="images/desktop1.png" alt="Hipergator_Desktop_1" height="350" style="margin-right: 50px;">
+  <img src="images/desktop1.png" alt="Hipergator_Desktop_1" height="350" style="margin-right: 40px;">
   <img src="images/desktop2.png" alt="Hipergator_Desktop_2" height="350">
   </p>
 
